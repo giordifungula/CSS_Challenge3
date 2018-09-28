@@ -5,12 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+
+    <style>
+ body {
+     /* background: rgb(199, 30, 58); */
+     padding: 0;
+     margin: 10;
+     background: #eee;
+ }
+ .top {
+     background: url('https://www.logoinspirations.co/wp-content/uploads/2017/05/minimal-lion-logo.jpg');
+     background-position: center;
+ }
+ .bottom {
+    background-image: url('https://www.logoinspirations.co/wp-content/uploads/2017/05/minimal-lion-logo.jpg');
+    background-position: center;
+ }
+ .box {
+     /* this semi-transparent gradient over both  boxes*/
+     background: radial-gradient(transparent, rgb(24, 22, 22));
+     background: -moz-linear-gradient(rgb(77, 71, 71), rgb(7, 5, 5));
+     background: -o-linear-gradient(rgb(255, 251, 251), rgb(7, 5, 5));
+     background: -moz-linear-gradient(rgb(255, 251, 251), rgb(7, 5, 5));
+     background: (rgb(158, 47, 47));
+     height: 500px;
+     /* width: 200px; */
+     border: 1mm solid black;
+ }
+ p {
+     width: 200px;
+     height: auto;
+     text-align: center;
+     font-size: 2.5em;
+     color: rgb(83, 62, 62);
+     background: blueviolet;
+     border-radius: 2px ;
+ }
+
+ 
+    </style>
 </head>
 <body>
     <div class="container">
-        <p>This is a cool box</p>
+        <section class="box">
+            <div class="top">
+                <!-- top section of the background -->
+                <h2>People</h2>
+                <!-- image -->
+                <p>This is a cool box</p>
+                <!-- Paragraph tag -->
+            </div>
+            <div class="bottom">
+                <!-- bottom sect  
+                ion of the background -->
+                <h2>Places</h2>
+                <p>Paragraph tag</p>
+                <!-- THis is the paragraph tag -->
+
+            </div>
+        </section>
     </div>
 </body>
 </html>
